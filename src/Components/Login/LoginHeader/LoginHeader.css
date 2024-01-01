@@ -22,3 +22,101 @@
 .HeadingImage{
     padding: 5rem;
 }
+.WarningTag{
+    color: rgb(190, 72, 72);
+    font-family: cursive;
+}
+.line-with-text hr {
+    display: inline-block;
+    border: none;
+    height: 2px; /* Adjust the height of the line as needed */
+    width: 50%; /* Adjust the width of the line as needed */
+    max-width: 200px; /* Set a maximum width for the line */
+    background-color: #000; /* Adjust the color of the line as needed */
+  }
+
+  .line-with-text span {
+    position: relative;
+    top: -8px; /* Adjust the vertical position of the text as needed */
+    background-color: #fff; /* Adjust the background color of the text as needed */
+    padding: 0 10px; /* Adjust the padding of the text as needed */
+    font-size: 14px; /* Adjust the font size of the text as needed */
+  }
+  .line-with-text {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Styles for the button and dropdown container */
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-button {
+    width: 15rem;
+    height: 2rem;
+    background-color: rgb(238, 155, 100);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+
+  /* Styles for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 15rem;
+    height: 2rem;
+    background-color: rgb(238, 155, 100);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding-right: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: .2rem;
+    z-index: 1;
+  }
+
+  .dropdown-item {
+    color: #333;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Show the dropdown content when the button is hovered */
+  .dropdown-container:hover .dropdown-content {
+    display: block;
+  }
+
+  .new-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    border: 2px solid #000000;
+    width: 15rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+
+
+  .new-button:hover {
+    background-color: #45a049;
+    color: #fff;
+    border-color: #45a049;
+    border: 2px solid #000000;
+  }

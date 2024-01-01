@@ -5,6 +5,9 @@ const Login=()=>{
     return (
         <div>
             <LoginHeader/>
+            <div>
+                
+            </div>
         </div>
     )
 }

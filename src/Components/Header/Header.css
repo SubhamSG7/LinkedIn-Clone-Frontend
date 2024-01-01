@@ -6,6 +6,7 @@
   .Header-Container{
     display: flex;
     justify-content: space-between;
+    padding: 1%;
   }
   
   /* Basic styling for the input */
